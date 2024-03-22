@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { collectionOfSportPlayer } from '../utils/constant';
 import Itemcard from './Itemcard';
+import Ads from './Ads';
+import Button from './Button';
 
 interface playerData{
   name:string ,
@@ -20,16 +22,22 @@ const SportsData: React.FC = () => {
   console.log(playerData)
   if(playerData.length===0) return ;
   return (
-    <div className='dark:bg-black bg-gray p-4'>
-      <span className=' border-b-2 font-bold border-blue-700 pb-1 '>
+    <div className='dark:bg-black sm:p-10 md:p-16 lg:p-24 bg-gray  p-4'>
+      <span className=' border-b-2 font-bold border-blue-700 pb-1 text-xl  '>
         Sports
       </span>
-      <div>
+      <div className=' mt-8 sm:gap-6 sm:grid sm:grid-cols-2 md:gap-2 md:grid-cols-4 lg:grid-cols-5 '>
         {
          collectionOfSportPlayer.map((data) =>(
           <Itemcard key={data.id} data={data} />
          )) 
         }
+        
+          <Ads />
+        
+      </div>
+      <div>
+        <Button />
       </div>
     </div>
   );

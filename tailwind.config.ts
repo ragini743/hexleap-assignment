@@ -16,8 +16,12 @@ const config: Config = {
       backgroundColor:{
        "black": "292B32",
        "gray":"#F7F7F8",
+       
 
       },
+      colors:{
+        "light-gray":"#525965",
+      }
     },
   },
   plugins: [],
