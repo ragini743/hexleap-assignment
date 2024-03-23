@@ -4,6 +4,7 @@ import { collectionOfSportPlayer } from '../utils/constant';
 import Itemcard from './Itemcard';
 import Ads from './Ads';
 import Button from './Button';
+import Spotlight from './Spotlight';
 
 interface playerData{
   name:string ,
@@ -39,6 +40,7 @@ const SportsData: React.FC = () => {
       <div>
         <Button />
       </div>
+      <Spotlight />
     </div>
   );
 };
