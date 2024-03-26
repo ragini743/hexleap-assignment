@@ -47,17 +47,7 @@ setIsShowMoreItem(!isShowMoreItem)
           <Ads />
          
       </div>
-      {/* <div className=' mt-8 sm:gap-6 sm:grid sm:grid-cols-2 md:gap-2 md:grid-cols-4 lg:grid-cols-5 overflow-x-auto whitespace-nowrap flex-nowrap grid-rows-1 '>
-      
-        {
-         collectionOfSportPlayer.map((data) =>(
-          <Itemcard key={data.id} data={data} />
-         )) 
-        }
-        
-          <Ads />
-        
-      </div> */}
+    
       <div className=''onClick={toggleShowItem}>
         <Button isShowMoreItem={isShowMoreItem} />
       </div>

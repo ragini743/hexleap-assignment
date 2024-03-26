@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ads: React.FC = () => {
   return (
-    <div className='bg-white dark:bg-dark-slide mb-4 p-2 border-1 shadow-lg w-[calc(100%/5)]'>
+    <div className='bg-white dark:bg-dark-slide mb-4 p-2 border-1 shadow-lg lg:w-[calc(100%/5)] w-[100%] sm:w-[calc(50%-20px)] md:w-[calc(30%-20px)]'>
     <div className='relative dark:text-gray-200'>
       <div className=' bg-slate-950 text-white font-bold -mb-2 flex  py-2 px-4 right-0 justify-end absolute'>
          Ad

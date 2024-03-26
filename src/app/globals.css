@@ -26,12 +26,12 @@
 
 
 .slick-prev {
-  left: 3% !important;
+  left: 1% !important;
   z-index: 10;
 
 }
 .slick-next {
-  right: 3% !important;
+  right: 4% !important;
   z-index: 10;
   
 }
@@ -40,7 +40,7 @@
   border:2px solid blue !important;
   color:blue !important;
 
-  font-size: 50px !important;
+  font-size: 40px !important;
  
 }
 
@@ -48,15 +48,17 @@
   content: '';
   border:2px solid blue !important;
   color:blue !important;
-  font-size: 50px !important;
+  font-size: 40px !important;
 }
 
 .slick-list{
-  width:70% !important;
+  width:80% !important;
   margin: auto !important;
   
 }
 
 
-
+.slick-dots{
+  visibility: hidden;
+}
 

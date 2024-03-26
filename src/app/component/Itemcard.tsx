@@ -14,17 +14,17 @@ const Itemcard:React.FC<ItemcardProps> = ({data}) => {
             <div>
                 <img className="w-full  object-cover" src={imagePath} alt='player img'></img>
             </div>
-            <h1 className='font-bold my-4'>
+            <h1 className='font-bold my-4  md:text-[0.85rem] lg:text-[1.25rem]'>
                 {name}
             </h1>
-            <div className='dark:bg-black bg-gray  flex p-2 '>
+            <div className='dark:bg-black bg-gray  flex p-2'>
                 <div className=' w-[50%]'>
                     <p className='text-light-gray text-sm md:text-xs dark:text-gray-400'>Total Events</p>
-                    <p className='font-bold  dark:text-gray-300'>{event} Events</p>
+                    <p className='font-bold  dark:text-gray-300  md:text-[0.85rem] lg:text-[1rem]'>{event} Events</p>
                 </div>
                 <div className='w-[50%]'>
                     <p className='text-sm text-light-gray md:text-xs dark:text-gray-400'>Sport </p>
-                    <p className='font-bold last: dark:text-gray-300'>{sport} </p>
+                    <p className='font-bold last: dark:text-gray-300  md:text-[0.85rem] lg:text-[1rem]'>{sport} </p>
                 </div>
             </div>
         </div>

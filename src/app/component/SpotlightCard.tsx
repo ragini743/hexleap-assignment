@@ -21,7 +21,7 @@ const SpotlightCard:React.FC<SpotlightCardProps> = ({data}) => {
 
          </div>
          </div>
-         <div className='text-center mt-6 '> 
+         <div className='text-center mt-6 md:text-[0.75rem] lg:text-[1rem]'> 
             <h1 className='font-bold text-lg mb-4 dark:text-gray-200'>
                 {name}
             </h1>

@@ -66,7 +66,7 @@ const Spotlight: React.FC = () => {
           experience .Grab yours today !
         </p>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center ">
        
         <div className="  h-[100%]  items-stretch overflow-hidden justify-between hidden md:block">
           <Slider {...settings}>
@@ -75,7 +75,7 @@ const Spotlight: React.FC = () => {
             ))}
           </Slider>
         </div>
-        <div className="  h-[100%]  items-stretch overflow-hidden justify-between md:hidden">
+        <div className="  h-[100%]  items-stretch overflow-hidden justify-between md:hidden grid grid-cols-1 sm:grid-cols-2 mx-auto gap-4">
          
             {spotlightCollection.map((data) => (
               <SpotlightCard key={data.id} data={data} />
