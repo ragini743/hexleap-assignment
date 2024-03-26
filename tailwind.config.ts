@@ -14,9 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       backgroundColor:{
-       "black": "292B32",
+       "black": "#292B32",
        "gray":"#F7F7F8",
-       
+       "dark-slide":"#3B3E47",
+       "spot-bg":"#18282A"
 
       },
       colors:{
@@ -25,5 +26,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class"
 };
 export default config;

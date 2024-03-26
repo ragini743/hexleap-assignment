@@ -27,6 +27,34 @@ export const collectionOfSportPlayer = [
         id:4,
         imagePath:"./Mask-group1.png"
     },
+    {
+        name : "Sacramento River Cats",
+        event : 48,
+        sport : "Baseball" ,
+        id:5,
+        imagePath:"./Mask-group1.png"
+    },
+    {
+        name : "Las Vegas Aviators",
+        event : 28,
+        sport : "Baseball" ,
+        id:6,
+        imagePath:"./Mask-group2.png",
+    },
+    {
+        name : "Sacramento River Cats",
+        event : 15,
+        sport : "Ice Hockey" ,
+        id:7,
+        imagePath:"./Mask-group3.png"
+    },
+    {
+        name : "Las Vegas Aviators",
+        event : 28,
+        sport : "Baseball" ,
+        id:8,
+        imagePath:"./Mask-group1.png"
+    },
 ]
 
 
