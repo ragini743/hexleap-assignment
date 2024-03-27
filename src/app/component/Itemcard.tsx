@@ -24,7 +24,7 @@ const Itemcard:React.FC<ItemcardProps> = ({data}) => {
                 </div>
                 <div className='w-[50%]'>
                     <p className='text-sm text-light-gray md:text-xs dark:text-gray-400'>Sport </p>
-                    <p className='font-bold last: dark:text-gray-300  md:text-[0.85rem] lg:text-[1rem]'>{sport} </p>
+                    <p className='font-bold text-[0.4rem] last: dark:text-gray-300  md:text-[0.75rem] lg:text-[1rem]'>{sport} </p>
                 </div>
             </div>
         </div>
